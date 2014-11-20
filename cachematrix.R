@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
   
         inv <- NULL   # this is the inverted matrix, initialized to NULL
       
-                set <- function(y) {
+        set <- function(y) {
                 x <<- y
                 inv <<- NULL
                 }
@@ -63,5 +63,5 @@ cacheSolve <- function(x, ...) {
 }
 
 
-## for testing purposes - uncomment
+## for testing purposes - uncomment next line
 ##matrixx <- rbind(c(2, -1/4), c(-1/4, 2)) 
